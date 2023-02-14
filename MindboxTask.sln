@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureMath", "FigureMath\FigureMath.csproj", "{B1E9B2BA-3325-4F4F-BE72-B743AAF857DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{56AABDAB-DDF2-4C8E-8BAC-5450269D5EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureMath.Test", "FigureMath.Test\FigureMath.Test.csproj", "{2BAC03A1-178F-4D10-AF13-D56129FCF2B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{B1E9B2BA-3325-4F4F-BE72-B743AAF857DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E9B2BA-3325-4F4F-BE72-B743AAF857DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E9B2BA-3325-4F4F-BE72-B743AAF857DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAC03A1-178F-4D10-AF13-D56129FCF2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAC03A1-178F-4D10-AF13-D56129FCF2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAC03A1-178F-4D10-AF13-D56129FCF2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAC03A1-178F-4D10-AF13-D56129FCF2B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BAC03A1-178F-4D10-AF13-D56129FCF2B7} = {56AABDAB-DDF2-4C8E-8BAC-5450269D5EF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DDFEC72-B522-4E96-8E7C-29C728C75C23}
