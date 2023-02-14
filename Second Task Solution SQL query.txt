@@ -1,0 +1,7 @@
+SELECT
+    CASE 
+        WHEN c.NAME != '' THEN CONCAT(p.Name, " - ", c.Name) ELSE p.Name
+    END as Result
+        FROM Products p
+            LEFT JOIN ProductCategories pc ON pc.ProductId = p.Id
+                LEFT JOIN Categories c ON pc.CategoryId = c.Id

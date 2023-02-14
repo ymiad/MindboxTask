@@ -1,0 +1,1 @@
+Solution for 2nd question is in the "Second Task Solution SQL query.txt"

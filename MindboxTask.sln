@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureMath", "FigureMath\FigureMath.csproj", "{B1E9B2BA-3325-4F4F-BE72-B743AAF857DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureMath", "FigureMath\FigureMath.csproj", "{B1E9B2BA-3325-4F4F-BE72-B743AAF857DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{56AABDAB-DDF2-4C8E-8BAC-5450269D5EF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureMath.Test", "FigureMath.Test\FigureMath.Test.csproj", "{2BAC03A1-178F-4D10-AF13-D56129FCF2B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureMath.Test", "FigureMath.Test\FigureMath.Test.csproj", "{2BAC03A1-178F-4D10-AF13-D56129FCF2B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BE744A3-0F78-42AC-94A3-BCD72BC5D696}"
+	ProjectSection(SolutionItems) = preProject
+		Second Task Solution SQL query.txt = Second Task Solution SQL query.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
